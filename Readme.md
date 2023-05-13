@@ -6,6 +6,7 @@ Este é um guia rápido para ajudá-lo a configurar e executar o GLPI com Docker
 
 Antes de começar, você precisa ter o Docker instalado na sua máquina. Para isso, siga as instruções no [site oficial do Docker](https://docs.docker.com/get-docker/).
 
+
 ## Passo a passo
 
 1. Faça o download do arquivo **docker-compose.yml** deste repositório.
@@ -28,7 +29,6 @@ Antes de começar, você precisa ter o Docker instalado na sua máquina. Para is
 
 6. Na página de instalação do GLPI, selecione o idioma desejado e clique em "Próximo".
 
-
 7. Na página de configuração do banco de dados, digite as credenciais abaixo, Se a conexão for bem-sucedida, clique em "Próximo".
 
     | Nome do Servidor |   Usuário   |   senha   |
@@ -41,11 +41,6 @@ Antes de começar, você precisa ter o Docker instalado na sua máquina. Para is
 
 Pronto! Agora você tem o GLPI instalado e funcionando com Docker.
 
-## Dicas adicionais
-
-- Para parar os containers, execute o comando ``docker-compose down``.
-- Para reiniciar os containers, execute o comando ``docker-compose restart``.
-- Para remover os containers e limpar o ambiente, execute o comando ``docker-compose down -v``.
 
 ## Informações de Login
 
@@ -55,4 +50,12 @@ Pronto! Agora você tem o GLPI instalado e funcionando com Docker.
 | tech    | tech  | Conta do Técnico      |
 | normal  | normal| Conta do Usuário      |
 | post-only|postonly| Conta somente para postar |
+
+
+## Dicas adicionais
+
+- Para parar os containers, execute o comando ``docker-compose down``.
+- Para reiniciar os containers, execute o comando ``docker-compose restart``.
+- Para remover os containers e limpar o ambiente, execute o comando ``docker-compose down -v``.
+
 
