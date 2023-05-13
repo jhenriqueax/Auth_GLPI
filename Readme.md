@@ -59,3 +59,39 @@ Pronto! Agora você tem o GLPI instalado e funcionando com Docker.
 - Para remover os containers e limpar o ambiente, execute o comando ``docker-compose down -v``.
 
 
+# Instalando o plugin OAuth IMAP
+
+1. Encontre o ID do container em que você deseja instalar o plugin no nosso caso o glpi:
+
+    ```
+    docker ps
+    ```
+
+    O comando acima exibe uma lista dos containers em execução. Anote o ID do container em que você deseja instalar o plugin.
+
+    ```
+    docker exec -it <IdContainer> bash
+    ```
+
+    Utilize este comando para acessar o terminal do container selecionado. Lembre-se de substituir <IdContainer> pelo ID do container anotado anteriormente.
+
+2. Instale o Git e clone o repositório:
+
+    ```
+    apt-get update
+    apt-get install -y git
+    git clone https://github.com/pluginsGLPI/oauthimap.git
+    ```
+
+3. Mova o diretório do plugin para a pasta de plugins do GLPI:
+
+    ```
+    mv oauthimap /var/www/html/glpi/plugins/
+    ```
+
+4. Ative o plugin no localHost:
+
+    Após instalar o plugin, acesse o servidor GLPI pelo navegador e faça o login. Em seguida, vá até o menu "Configurar" > "Plugins". Procure pelo plugin OAuth IMAP na lista de plugins instalados e clique em "Ativar".
+
+
+
