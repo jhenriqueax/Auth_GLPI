@@ -1,6 +1,6 @@
 # Como Subir o GLPI com Docker
 
-Este é um guia rápido para ajudá-lo a configurar e executar o GLPI junto com o plugin Oauth IMAP utilizando Docker. Com a utilização do Docker, você pode simplificar o processo de instalação e evitar conflitos de versões.
+Este guia rápido tem como objetivo auxiliar na configuração e execução do GLPI juntamente com o plugin Oauth IMAP por meio do uso do Docker. Ao utilizar o Docker, é possível simplificar o processo de instalação e evitar possíveis conflitos de versões.
 
 ## Pré-requisitos
 
