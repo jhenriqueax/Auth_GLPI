@@ -29,11 +29,11 @@ Antes de começar, você precisa ter o Docker instalado na sua máquina. Para is
 6. Na página de instalação do GLPI, selecione o idioma desejado e clique em "Próximo".
 
 
-7. Na página de configuração do banco de dados, selecione e digite as credenciais abaixo, Se a conexão for bem-sucedida, clique em "Próximo".
+7. Na página de configuração do banco de dados, digite as credenciais abaixo, Se a conexão for bem-sucedida, clique em "Próximo".
 
-        | Nome do Servidor | Usuário | senha     |
-        |---------|-------|----------------------|
-        | mariadb | glpi_user  |  glpi | 
+    | Nome do Servidor |   Usuário   |   senha   |
+    |------------------|-------------|-----------|
+    |      mariadb     |  glpi_user  |    glpi   | 
 
 8. Na página de configuração de contas, defina os usuários e senhas para as contas "Super Administrador", "Conta do Técnico", "Conta do Usuário" e "Conta somente para postar". Clique em "Próximo".
 
@@ -50,7 +50,7 @@ Pronto! Agora você tem o GLPI instalado e funcionando com Docker.
 ## Informações de Login
 
 | Usuário | Senha | Função                |
-|---------|-------|----------------------|
+|---------|-------|-----------------------|
 | glpi    | glpi  | Super Administrador   |
 | tech    | tech  | Conta do Técnico      |
 | normal  | normal| Conta do Usuário      |
