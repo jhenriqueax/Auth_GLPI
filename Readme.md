@@ -37,7 +37,7 @@ Antes de começar, você precisa ter o Docker instalado na sua máquina. Para is
 
 8. Na página de configuração de contas, defina os usuários e senhas para as contas "Super Administrador", "Conta do Técnico", "Conta do Usuário" e "Conta somente para postar". Clique em "Próximo".
 
-9. Conclua as configurações finais
+9. Conclua as configurações finais.
 
 Pronto! Agora você tem o GLPI instalado e funcionando com Docker.
 
