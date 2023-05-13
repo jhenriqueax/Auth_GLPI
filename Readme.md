@@ -31,7 +31,7 @@ Antes de começar, você precisa ter o Docker instalado na sua máquina. Para is
 
 7. Na página de configuração do banco de dados, digite as credenciais abaixo, Se a conexão for bem-sucedida, clique em "Próximo".
 
-    | Nome do Servidor |   Usuário   |   senha   |
+    |     Endereço     |   Usuário   |   senha   |
     |------------------|-------------|-----------|
     |      mariadb     |  glpi_user  |    glpi   | 
 
