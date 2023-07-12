@@ -13,7 +13,7 @@ Antes de começar, você precisa ter o Docker instalado na sua máquina. Para is
   
         https://github.com/jhenriqueax/Auth_GLPI.git
 
-2. Abra um terminal e navegue até o diretório onde o arquivo **docker-compose.yml** está salvo
+2. Abra um terminal e navegue até o diretório em que o arquivo **docker-compose.yml** está salvo
 
 3. Execute o comando **docker-compose up -d** para iniciar os containers do GLPI e do banco de dados MariaDB. Esse comando baixará as imagens do Docker Hub e configurará o ambiente. O processo pode levar alguns minutos.
 
